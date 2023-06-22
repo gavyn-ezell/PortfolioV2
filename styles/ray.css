@@ -1,50 +1,24 @@
 @media (max-width: 955px) and (min-width: 0px) {
   .render {
-    width: 170px;
+    width: 190px;
   }
 }
-
-@media (max-width: 955px) and (min-width: 591px) {
-  #render-connect {
-    left: 180px;
-    right: 180px;
-    top: 1800px;
-  }
-}
-
-@media (max-width: 590px) {
-  #render-connect {
-   background-color: none;
-  }
- } 
 
 @media (max-width: 1060px) and (min-width: 955px) {
   .render {
-    width: 250px;
-  }
-
-  #render-connect {
-    left: 200px;
-    right: 200px;
-    top: 1800px;
+    width: 270px;
   }
 }
 @media (min-width: 1061px) {
   .render {
-    width: 330px;
-  }
-
-  #render-connect {
-    left: 200px;
-    right: 200px;
-    top: 1905px;
+    width: 350px;
   }
 }
 
 .render {
   border: 4px solid rgb(118, 159, 182);
   border-radius: 4px;
-  z-index: 100;
+  z-index: 100
 }
 
 #RayTracer {
@@ -55,13 +29,7 @@
 .image-container {
   display: flex;
   justify-content: space-evenly;
-}
-
-#render-connect {
-  background-color: rgb(118, 159, 182);
-  position: absolute;
-  z-index: 2;
-  height: 4px;
+  position: relative;
 }
 
 .ray-para {

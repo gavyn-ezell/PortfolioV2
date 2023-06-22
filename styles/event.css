@@ -11,11 +11,11 @@
 }
 
 .event-flex p {
-  width: 400px;
   margin: 0 50px 0 0;
-  padding-right: 8px;
+  padding: 0 8px 0 20px;
   text-align: right;
   border-right: 2px solid rgb(209, 96, 20);
+  line-height: 30px;
 }
 
 @media (max-width: 954px) and (min-width: 0px) {
