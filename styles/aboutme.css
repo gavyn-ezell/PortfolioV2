@@ -150,3 +150,12 @@
   justify-content: start;
   margin-right: 10px;
 }
+
+.reach:hover {
+  text-decoration: underline;
+}
+
+.reach {
+  color: rgb(118, 159, 182);
+  font-weight: bold;
+}
