@@ -1,0 +1,44 @@
+#eventify {
+  padding: 165px 0 165px 0;
+  background-color: rgb(226, 226, 226);
+}
+
+.event-flex {
+  display: flex; 
+  align-items: center;
+  justify-content: end;
+  height: 400px;
+}
+
+.event-flex p {
+  width: 400px;
+  margin: 0 50px 0 0;
+  padding-right: 8px;
+  text-align: right;
+  border-right: 2px solid rgb(209, 96, 20);
+}
+
+@media (max-width: 954px) and (min-width: 0px) {
+  .embedvideo {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1060px) and (min-width: 955px) {
+  .embedvideo {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1061px) {
+  .embedvideo {
+    width: 700px;
+  }
+}
+
+.embedvideo {
+  height: 450px;
+  transition: width 0.1s;
+  border: 3px solid rgb(209, 96, 20);
+  padding: 3px;
+}

@@ -1,116 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <!-- <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <title>Gavyn Ezell</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/aboutme.css">
+  <link rel="stylesheet" href="styles/project.css">
+  <link rel="stylesheet" href="styles/ray.css">
+  <link rel="stylesheet" href="styles/event.css">
   <link rel="icon" href="Photos/linkbird.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
 </head>
 
-
 <body>
+    <div id="top"></div>
+    <div id="project"></div>
+    <div id="raytrace"></div>
+    <div id="event"></div>
+    <div id="render-connect"></div>
+
     <nav class="navbar">
-        <a href="#aboutme">ABOUT ME</a>
-        <a href="#startggProject">Start.gg Project</a>
-        <a href="#RayTracer">Ray Tracer from Scratch</a>
-        <a href="#Unity">ACM Projects - Eventify</a>
+        <div class="about-box">
+          <a class="scroll" href=#top >About Me</a>
+        </div>
+        <div class="gg-box">
+          <a class="scroll" href=#project>Start&period;gg Project</a>
+        </div> 
+        <div class="ray-box">
+          <a class="scroll" href=#raytrace>Ray Tracer From Scratch</a>
+        </div>
+        <div class="acm-box">
+          <a class="scroll" href=#event>ACM Projects &dash; Eventify</a>
+        </div>
     </nav>
 
     <section id="aboutme">
       <div id="summary">
-        <p>
-          Hey! I'm Gavyn. I'm from Hawaii and I'm currently pursuing a degree in
+        <div id="intro-pro">
+          <p id="gavyn">
+            Hey! I'm Gavyn.
+          </p>
+          <div id="pronouns">he/him</div>
+        </div>
+        <p class="desc">
+          I'm from Hawaii and I'm currently pursuing a degree in
           Computer Science at the University of Califonia, San Diego. I'm a third year student who's
           been involved with backend web development. I've got plenty to learn and I'm always working to improve and 
           grow my skillset.
         </p>
-        <br>
-        <a href="RESUMEPDF.pdf" download>RESUME</a>
-        <br>
-        <br>
-          <h3>Languages</h3>
-          <ul>
-            <li>Javascript</li>
-            <li>C++</li>
-            <li>C#</li>
-            <li>SQL</li>
-            <li>Python</li>
-          </ul>
-          <h3>Technologies</h3>
-          <ul>
-            <li>Node.js + Express.js</li>
-            <li>MySQL</li>
-            <li>MongoDB</li>
-            <li>Unity</li>
-          </ul>
+        <p id="languages-title">Languages:</p>
+        <div id="languages">
+          <div class="java">JavaScript</div>
+          <div class="python">Python</div>
+          <div class="cplus">C++</div>
+          <div class="csharp">C#</div>
+        </div>
+
+        <p id="tech-title">Technologies:</p>
+        <div id="techs">
+          <div class="unity">Unity</div>
+          <div class="sql">MySQL</div>
+          <div class="express">Express.js</div>
+          <div class="node">Node.js</div>
+          <div class="mongo">MongoDB</div>
+        </div>
+
+        <div class="bottom-about">
+          <div class="resume-div">
+            <a href="RESUMEPDF.pdf" target="_blank">
+              <div class="resume">
+                My Resume &nearr;
+              </div>
+            </a>
+          </div>
+        </div>
 
       </div>
-
-      <img id="face" src="Photos/Shot.jpg" alt="FACESHOT" width="338" height="575">
-      <div id="links">
-        <br>
-        <p>
-          <a href="https://linkedin.com/in/gavyn-ezell-b4b2271b9" target="_blank"><img class="small-link" src="Photos/linkedin.png" alt="LinkedIn" width="375" height="645"></a>
-          <a href="https://github.com/gavyn-ezell" target="_blank"><img class="small-link" src="Photos/github.png" alt="GitHub" width="375" height="645"></a>
-          <a href="https://twitter.com/YANZAAAAAAAA" target="_blank"><img class="small-link" src="Photos/twit.png" alt="Twitter" width="375" height="645"></a>
-          <a href="https://www.youtube.com/channel/UC4gNYMR9Chraxrg4yQT7AXw" target="_blank"><img class="small-link" src="Photos/yt.png" alt="YouTube" width="375" height="645"></a>
-          <a href="https://www.instagram.com/gavyn.ezell/" target="_blank"><img class="small-link" src="Photos/ig.png" alt="instagram" width="375" height="645"></a>
-        </p>
+      <div class="image-div">
+        <div class="icons-div">
+          <a href="https://www.linkedin.com/in/gavyn-ezell-b4b2271b9">
+            <img class="linkedin" src="Photos/linked.png">
+          </a>
+          <a href="https://www.instagram.com/gavyn.ezell/">
+            <img class="ig" src="Photos/ig.webp">
+          </a>
+          <a href="https://twitter.com/YANZAAAAAAAA">
+            <img class="twitter" src="Photos/twitter.png">
+          </a>
+          <a href="https://www.youtube.com/channel/UC4gNYMR9Chraxrg4yQT7AXw">
+            <img class="yt" src="Photos/youtube.png">
+          </a>
+          <a href="https://github.com/gavyn-ezell">
+            <img class="git" src="Photos/github.png">
+          </a>
+        </div>
+        <img id="face" src="Photos/Shot.jpg" alt="FACESHOT">
       </div>
-      <br>
     </section>
-    
+  
     <section id="startggProject">
-      <div class="demo">
-          <iframe id="embedvid"width="790" height="430" src="https://www.youtube.com/embed/C5CvZujBBcg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+      <div class="embed-flex">
+
+        <div class="demo">
+          <iframe id="embedvid" src="https://www.youtube.com/embed/C5CvZujBBcg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
           </iframe>
-      </div>
-      <br>
-      <div id="demo-description">
-        <p>
-          Built an Express app where you can create a personalized dashboard for updates on your favorite Smash Ultimate Pro Players.
-          Communicates with a MySQL database for user management, and incorporates Start.gg's GraphQL API for player stats and info.
-          Additionally provides dashboard functionality for guest users who don't want to create an account.
-          All source code made available on my <a href="https://github.com/gavyn-ezell/startgg-project">GitHub</a>
-          
-          
-        </p>
+        </div>
+
+        <div id="demo-description">
+          <p>
+            Built an Express app where you can create a <strong>personalized</strong> dashboard for updates on your favorite Smash Ultimate Pro Players.
+            Communicates with a MySQL database for user management, and incorporates Start.gg's GraphQL API for player stats and info.
+            Additionally provides dashboard functionality for guest users who don't want to create an account.
+            All source code made available on my <a href="https://github.com/gavyn-ezell/startgg-project"><strong>GitHub</strong></a>.
+          </p>
+        </div>
+
       </div>
     </section>
+
     <section id="RayTracer">
       <div class="image-container">
-        <img id="render" src="Photos/robot.png" alt="robotrender">
-        <img id="render" src="Photos/luckycat.png" alt="luckycatrender">
-        <img id="render" src="Photos/politoed.png" alt="politoedrender">
+        <img class="render" src="Photos/robot.png" alt="robotrender">
+        <img class="render" src="Photos/luckycat.png" alt="luckycatrender">
+        <img class="render" src="Photos/politoed.png" alt="politoedrender">
       </div>
-      <br>
+      <div class="ray-para">
         <p>
-          Built an executable ray tracer completely from scratch in C++ for class.
+          Built an executable ray tracer<strong> completely from scratch </strong>in C++ for class.
           Reads a formatted input/scene file containing triangle, sphere, and lighting information.
           Additionally built a script to help translate simple .obj files into a readable input/scene file format.
           Follows Phong shading, additionally incorporates a Bounding Volume Hiererarchy to accelerate rendering times.
 
           Reach out to me for access to the GitHub repo!
         </p>
+      </div>
     </section>
-    <section id="Unity">
-      <!-- <video controls="controls" width="800" height="600" name="Video Name">
-        <source src="eventify.mov">
-
-      </video> -->
-      <div class="demo">
-          <iframe id="embedvid"width="790" height="430" src="https://www.youtube.com/embed/RAc_uTXVx88" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+    <section id="eventify">
+      <div class="event-flex">
+          <p>
+            Participated in Spring 2023 ACM Project. Worked in a <strong>group of 6</strong> to complete a simple web app over the course of the 
+            school quarter. Specifically focused on the backend side, building out a REST API, implementing authentication and image storage
+            through Node.js and Express.js.
+          </p>
+          <iframe class="embedvideo" src="https://www.youtube.com/embed/RAc_uTXVx88" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
           </iframe>
       </div>
-        <p>
-          Participated in Spring 2023 ACM Project. Worked in a group of 6 to complete a simple web app over the course of the 
-          school quarter. Specifically focused on the backend side, building out a REST API, implementing authentication and image storage
-          through Node.js and Express.js.
-        </p>
-        
-
     </section>
     
     

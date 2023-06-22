@@ -1,0 +1,156 @@
+
+@media (max-width: 840px) and (min-width: 0px) {
+  #face {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1060px) and (min-width: 841px) {
+  #face {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1061px) {
+  #face {
+    width: 425px;
+  }
+}
+
+#face {
+  transition: width 0.1s;
+}
+
+#aboutme {
+  display: flex;
+  background-color: rgb(238, 238, 238);
+  align-items: center;
+  padding-bottom: 120px;
+}
+
+#summary {
+  padding: 40px 20px 40px 40px;
+}
+
+
+
+.image-div {
+  display: flex;
+  align-items: center;
+}
+
+.desc {
+  width: 85%;
+}
+
+#gavyn {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#pronouns {
+  margin-left: 20px;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(118, 159, 182);
+  font-weight: bold;
+  color: white;
+  border-radius: 20px;
+}
+
+#intro-pro {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+#languages-title, #tech-title{
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#languages, #techs{
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  max-width: 450px;
+}
+
+#languages {
+  max-width: 350px;
+}
+
+#techs {
+  max-width: 500px;
+}
+
+.java, .csharp, .cplus, .python, .html-css {
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.unity, .express, .node, .mongo, .sql {
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-radius: 2px;
+}
+
+.java, .unity {
+  background-color: rgb(42, 45, 52);
+}
+
+.csharp, .node {
+  background-color: rgb(209, 96, 20);
+  color: white;
+}
+
+.cplus, .express {
+  background-color: rgb(20, 129, 186);
+  color: white;
+}
+
+.python, .sql {
+  background-color: rgb(249, 203, 64);
+  color: rgb(42, 45, 52);
+}
+
+.mongo {
+  background-color: rgb(105, 143, 63);
+}
+
+.bottom-about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(255, 94, 91);
+  padding: 5px 10px 5px 10px;
+  width: 140px;
+}
+
+.resume-div {
+  margin-top: 100px;
+}
+
+.git,.linkedin, .ig , .yt, .twitter {
+  height: 35px;
+  width: 35px;
+  margin-bottom: 5px;
+  object-fit: contain;
+  transition: width 0.15s;
+}
+
+.icons-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-right: 10px;
+}

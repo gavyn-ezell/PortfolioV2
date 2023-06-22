@@ -1,0 +1,43 @@
+body {
+  padding: 71px 0px 0px 0px;
+  font-family: Poppins; 
+  margin: 0;
+}
+
+a {
+  padding: 0;
+  text-decoration: none;
+  color: none;
+}
+
+p {
+  margin: 0px 0px 0px 0px;
+}
+
+div {
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#top {
+  position: absolute;
+  top: 0px;
+}
+
+#project {
+  position: absolute;
+  top: 848px;
+}
+
+#raytrace {
+  position: absolute;
+  top: 1600px;
+}
+
+#event {
+  position: absolute;
+  top:3000px;
+}

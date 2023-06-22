@@ -1,0 +1,53 @@
+.demo {
+  border: 3px solid rgb(105, 143, 63);
+  padding: 3px;
+  /* background-color: rgb(105, 143, 63); */
+}
+
+@media (max-width: 840px) and (min-width: 0px) {
+  #embedvid {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1060px) and (min-width: 841px) {
+  #embedvid {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1061px) {
+  #embedvid {
+    width: 700px;
+  }
+}
+
+#embedvid {
+  height: 450px;
+  transition: width 0.1s;
+}
+
+.embed-flex {
+  display: flex;
+  align-items: center;
+  padding: 130px 0 140px 0;
+}
+
+#startggProject {
+  background-color: rgb(226, 226, 226);
+}
+
+#demo-description p {
+  margin-left: 25px;
+  padding: 0 20px 0 8px;
+  border-left: 3px solid rgb(105, 143, 63);
+  line-height: 30px;
+}
+
+#demo-description a:hover {
+  text-decoration: underline;
+}
+
+#demo-description a {
+  color: rgb(105, 143, 63);
+}
