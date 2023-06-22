@@ -1,3 +1,3 @@
-Site Link: 
+Site Link: https://gavyn-ezell.github.io/PortfolioV2/
 
-Styling done by [Bingoof](https://github.com/bingoof)
+Site made by [Bingoof](https://github.com/bingoof)
